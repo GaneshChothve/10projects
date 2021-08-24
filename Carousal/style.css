@@ -1,0 +1,35 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: #555;
+}
+
+.con {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.imgs {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0px);
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    transition: 0.8s linear;
+    object-fit: cover;
+}

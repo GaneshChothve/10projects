@@ -1,0 +1,31 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(145, 145, 93);
+    overflow: hidden;
+}
+
+.container {
+    height: 400px;
+    width: 400px;
+    border: 2px solid;
+    box-shadow:20px blueviolet;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+
+}
+
+.image {
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Klee One', cursive;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 18px;
+    background-color: blueviolet;
+    color: #fff;
+    font-family: inherit;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.toast {
+
+    background: blueviolet;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
