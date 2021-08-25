@@ -9,16 +9,16 @@
 
 body {
     font-family: 'Klee One', cursive;
+    height: 100vh;
     overflow: hidden;
 }
 
 .view1 {
-    width: 50px;
-    height:60px;
-    background-color: blueviolet;
-    margin-left: 90%;
-    margin-top: 2%;
     position: fixed;
+    width: 60px;
+    height: 60px;
+    background-color: blueviolet;
+    left:0;
     z-index: 1;
     cursor: pointer;
     display: flex;
@@ -29,13 +29,21 @@ body {
     transition: 0.3s ease-in-out;
 }
 
+.view1.active {
+    left: 120px;
+}
+
 .view2 {
-    width: 20vw;
+    width: 140px;
     height: 100vh;
     background-color: blueviolet;
-    margin-left: 100%;
+    left: -140px;
     position: relative;
     transition:  0.3s ease-in-out;
+}
+
+.view2.active {
+    left: 0;
 }
 
 .view2 .link{
