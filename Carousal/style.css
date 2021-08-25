@@ -15,8 +15,8 @@ body{
 }
 
 .con {
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
     overflow: hidden;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
@@ -28,8 +28,8 @@ body{
 }
 
 img {
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
     transition: 0.8s linear;
     object-fit: cover;
 }
