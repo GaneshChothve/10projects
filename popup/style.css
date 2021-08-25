@@ -37,12 +37,14 @@ button.active {
 
 .con.active {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .popup {
     position: fixed;
-    width: 300px;
-    height:100px;
+    width: 320px;
+    height:150px;
     border: 2px solid;
     display: flex;
     flex-direction: column;
